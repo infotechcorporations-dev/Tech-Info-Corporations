@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: Monsterrat, Arial;
+}
+
+.site-header{
+    overflow: hidden;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.site-header a{
+    color: black;
+    text-align: center;
+    padding:12px;
+    text-decoration: none;
+    font-family: Montserrat, Arial;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.site-header{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    z-index: 999;
+
+}
+
+.logo{
+    margin-left: 5px;
+}
+
+.logo{
+    float: left;
+}
+.site-branding{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+header{
+    height: 100px;
+}
+
+.welcome-page{
+    background-image: url(images/welcome-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: 100px;
+    text-align: center;
+}
+
+.welcome-page{
+    text-align: center;
+    height: 100vh;
+
+}
+
+
+.welcome-page h2{
+    margin-top: 100px;
+    font-family: Montserrat;
+    font-size: 60px;
+
+}
+
+.welcome-page h3{
+    font-family: Montserrat;
+    font-size: 60px;
+
+}
+
+#welcome-button{
+    margin-top: 20px;
+    background-color: black;
+    background-size: 20px;
+    color:white;
+    border-radius:8px;
+    padding:10px 30px;
+    cursor: pointer;
+
+}
+
+#welcome-button:hover{
+    transform: scale(1.1);
+}
+
+#welcome-button:active{
+    transform: translateY(2px);
+}
+
+
+.future-page{
+    background-color: black;
+    color: white;
+}
+
+.future-title{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+}
+
+.future-paragraphs{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#positions{
+    margin: 50px;
+}
+
+#positions h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+#apply{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#apply h2{
+    font-size: 40px;
+}
+
+#apply p{
+    font-size: 18px;
+    opacity: 0.7;
+    font-weight: normal;
+}
+#apply-button{
+    margin-top: 20px;
+    background-color: black;
+    background-size: 20px;
+    color:white;
+    border-radius:8px;
+    padding:10px 30px;
+    cursor: pointer;   
+}
+
+#apply-button:hover{
+    transform: scale(1.1);
+}
+
+#apply-button:active{
+    transform: translateY(2px);
+}
+
+
+#footer-logo{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+footer a{
+    text-decoration:none;
+    color: black;
+    padding: 10px 30px;
+}
+
+.footer-col-1{
+    margin-top: 40px;
+    margin-left: 30px;
+    float: left;
+}
+
+.footer-col-2{
+    margin-top:40px;
+    margin-left: 60px;
+    float: left;
+}
+
+.footer-col-2{
+    padding-left: 100px;
+}
+
+#footer-banner{
+    margin-right: 100px;
+    float: left;
+}
+.footer-col-3{
+    margin-right: 100px;
+    text-align: center;
+
+}
+
+.footer-buttom a{
+    padding: 20px;
+    margin:30px;
+    font-size: 10;
+}
+
+
+
+#designer{
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+#invis-fb{
+   opacity:0 ; 
+}
+
+html {
+  scroll-behavior: smooth;
+}

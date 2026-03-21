@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+
+.site-header{
+    overflow: hidden;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.site-header a{
+    color: black;
+    text-align: center;
+    padding:12px;
+    text-decoration: none;
+    font-family: Montserrat, Arial;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.site-header{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    z-index: 999;
+
+}
+
+.logo{
+    margin-left: 5px;
+}
+
+.logo{
+    float: left;
+}
+.site-branding{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+header{
+    height: 100px;
+}
+
+.welcome-page{
+    background-image: url(images/welcome-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: 100px;
+    text-align: center;
+}
+
+.welcome-page{
+    text-align: center;
+    height: 100vh;
+
+}
+
+
+.welcome-page h2{
+    margin-top: 120px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.welcome-page h3{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.welcome-page p{
+    font-family: Montserrat;
+    color: white;
+    font-size: 18;
+
+}
+
+#about-image{
+    float: right;
+}
+
+#about{
+    background-color: black;
+    background-size: 1000px;
+    color: white;
+    text-align: left;
+    margin-left: 100;
+    justify-content: center;
+}
+
+#about h2{
+
+    padding:50px;
+    font-weight: normal;
+
+}
+
+#about p{
+    padding:5px;
+}
+
+.about-paragraphs{
+    padding: 50px;
+    font-size: 18;
+}
+
+*{
+    font-family: Montserrat, Arial;
+}
+
+#about hr{
+    margin-left: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#service-image{
+    float: right;
+}
+
+.service-text{
+    margin-left: 50px;
+}
+.service-text h2{
+    margin-top:50px;
+    margin-bottom: 25px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.service-text p{
+   padding: 5px;
+}
+
+.service-button{
+    background-color: black;
+    background-size: 20px;
+    color:white;
+    border-radius:8px;
+    padding:10px 30px;
+    cursor: pointer;
+}
+
+.service-button:hover{
+    transform: scale(1.1);
+}
+
+.service-button:active{
+    transform: translateY(2px);
+}
+
+#software-image{
+    float:right;
+}
+.software-text{
+    margin: 75px;
+}
+.software-text h2{
+    font-size: 28;
+    font-weight: normal;
+}
+
+.software-text p{
+    padding: 5px;
+}
+
+#update-image{
+    float: left;
+    margin-right: 100px;
+}
+
+.updates-text{
+    margin-left: 100px;
+}
+.updates-text h2{
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: 28;
+}
+
+.updates-text p{
+    padding: 3px;
+}
+
+.social-media{
+    margin-left: 100px;
+}
+#updates a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+#fb:active{
+    transform: translateY(2px);
+}
+
+#careers{
+    background-image: url(images/apply-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.apply-text {
+    align-items: normal;
+    margin-left: 100px;
+    background-color: black;
+    color: white;
+    padding: 50px 70px 60px 40px;
+    border-radius: 9px;
+}
+
+.apply-text h2{
+    font-weight: normal;
+}
+
+.apply-text p{
+    padding: 3px;
+}
+
+#apply-button{
+    border-color: white;
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#apply-button:hover{
+    transform: scale(1.1);
+}
+
+#apply-button:active{
+    transform: translateY(2px);
+}
+
+#footer-logo{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+footer a{
+    text-decoration:none;
+    color: black;
+    padding: 10px 30px;
+}
+
+.footer-col-1{
+    margin-top: 40px;
+    margin-left: 30px;
+    float: left;
+}
+
+.footer-col-2{
+    margin-top:40px;
+    margin-left: 60px;
+    float: left;
+}
+
+.footer-col-2{
+    padding-left: 100px;
+}
+
+#footer-banner{
+    margin-right: 100px;
+    float: left;
+}
+.footer-col-3{
+    margin-right: 100px;
+    text-align: center;
+
+}
+
+.footer-buttom a{
+    padding: 20px;
+    margin:30px;
+    font-size: 10;
+}
+
+
+
+#designer{
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+#invis-fb{
+   opacity:0 ; 
+}
+
+
+
+
+

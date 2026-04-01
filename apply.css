@@ -1,7 +1,7 @@
 /*Imports Monsterrat Font from Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*Sets the marin for everything at 0 and the font family as listed for everything*/
+/*Sets the margin for everything at 0 and the font family as listed for everything*/
 *{
     margin: 0;
     font-family: Monsterrat, Arial;

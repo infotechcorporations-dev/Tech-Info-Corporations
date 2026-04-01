@@ -1,5 +1,7 @@
+/*Imports Monsterrat Font from Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*Sets the marin for everything at 0 and the font family as listed for everything*/
 *{
     margin: 0;
     font-family: Monsterrat, Arial;
@@ -19,13 +21,12 @@
     text-align: center;
     padding:12px;
     text-decoration: none;
-    font-family: Montserrat, Arial;
     font-size: 15px;
     line-height: 25px;
     border-radius: 4px;
 }
 .site-header{
-    position: fixed;
+    position: fixed; /*Ensures the header stays ontop of the screen*/
     top:0px;
     width: 100%;
     z-index: 999;
@@ -50,6 +51,7 @@ header{
 }
 
 .welcome-page{
+    /*The background image aswell as aligning the text in the center*/
     background-image: url(images/welcome-background.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,7 +69,7 @@ header{
 
 }
 
-
+/*Moving the text down and setting the size*/
 .welcome-page h2{
     margin-top: 100px;
     font-family: Montserrat;
@@ -79,8 +81,9 @@ header{
     font-family: Montserrat;
     font-size: 60px;
 
-}
+} 
 
+/*Button design I coded and used for the website's theme*/
 #welcome-button{
     margin-top: 20px;
     background-color: black;
@@ -145,6 +148,8 @@ header{
     opacity: 0.7;
     font-weight: normal;
 }
+
+
 #apply-button{
     margin-top: 20px;
     background-color: black;
@@ -217,7 +222,27 @@ footer a{
 #invis-fb{
    opacity:0 ; 
 }
+#download-button{
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: black;
+    background-size: 20px;
+    color:white;
+    border-radius:8px;
+    padding:10px 30px;
+    cursor: pointer;
+}
 
+#download-button:hover{
+    transform: scale(1.1);
+}
+
+#download-button:active{
+    transform: translateY(2px);
+}
+
+
+/*Ensures the scroll is not "blocky"*/
 html {
   scroll-behavior: smooth;
 }

@@ -1,27 +1,37 @@
+<!--Website created by Sarvesh Jamraj-->
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Top part of the page with the logo and company title-->
         <title>Tech Info Corporations</title>
         <link rel="icon" type="image/png" href="images/logo.png">
+        <!--Links the stylesheet the to html code-->
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!--Header with a Navigation Bar-->
         <header class="site-header">
             <div class="site-branding">
+                <!--Links the logo back to the homepage (useful in the carrers page)-->
                 <a href="index.html">
                     <img src="images/logo.png" alt="" width="100">
                 </a>
             </div>
             <nav class="nav-bar">
-                <a class="active" href="#about">About</a>
+                <!--The Navigation Bar-->
+                <a href="#about">About</a>
                 <a href="#services">Services</a>
                 <a href="#contact">Contact</a>
             </nav>
 
         </header>
+        <!--The central part of the website where most of the information is contained-->
         <main class = main>
             <div class="welcome-page">
                 <div class="welcome-text">
+                    <!--The Title-->
+                    <!--I had to seperate it in an h2 and h3 as when I was running the website-->
+                    <!--It had a massive space (Due to the margin-top function in css)-->
                     <h2 class="h2">Welcome to </h2>
                     <h3 id="h2-2">Tech Info Co.</h3>
                     <p><b>Discover the future of Information Technology</b></p>
@@ -29,6 +39,8 @@
             </div>
             <div id="about">
                 <span>
+                    <!--images folder was used as the side bar was looking weird-->
+                    <!--As it sorts stuff in alphabetical order-->
                     <img src="images/about-image.png" id="about-image" height="500" >
                     <h2> About Us</h2>
                     <hr width="250px" >
@@ -52,6 +64,7 @@
             <div id="services">
                 <img src="images/service-image.png" id="service-image" height="300px">
                 <div class="service-text">
+                    <!--Later found out of the letter spacing function which I used later on-->
                     <h2>S E R V I C E S</h2>
                     <hr width="250px" >
                     <br>
@@ -63,6 +76,7 @@
                         <p>button below</p>
                     </div>
                     <br>
+                    <!--Links the service form to the button-->
                     <a href="//forms.gle/ZXDJJJ83thzmFpG59" target="_blank">
                         <button class="service-button">Hire Us</button>
                     </a>
@@ -79,6 +93,7 @@
                     <h2>Our Specialty in</h2>
                     <h2>Software Development</h2>
                     <br>
+                    <!--The white line-->
                     <hr width="250px">
                     <br>
                     <div class="software-paragraphs"> 
@@ -160,6 +175,7 @@
 
                     </div>
                     <br>
+                    <!--Links the second page (careers.html) to this page providing access-->
                     <a href="careers.html" target="_blank">
                         <button id="apply-button">View More</button>
                     </a>
@@ -167,6 +183,8 @@
             </div>
 
         </main>
+        <!--Footer-->
+        <!--Seperated in div coloums to allow for the float function in css to make it line up-->
         <img src="images/logo.png" alt="Company Logo" width="150px" id="footer-logo">
         <footer>
             
@@ -221,7 +239,8 @@
         <div class="footer-bottom">
             <br>
             <a>
-                <p><span id="invis-fb" >....</span>  &copy 2026 Tech Info Corporations. Designed by <span id="designer">SARVESH</span></p>
+                <!-- "...." Added to make space as margin was not working-->
+                <p><span id="invis-fb" > ....</span>  &copy 2026 Tech Info Corporations. Designed by <span id="designer">SARVESH</span></p>
             </a>
             <br>
         </div>
